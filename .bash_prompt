@@ -93,10 +93,7 @@ ${BLUE}\w${COLOR_NONE}"
     BRANCH=''
   fi
 
-  # Set the bash prompt variable.
-#   PS1="
-# ${BLUE}\w${COLOR_NONE} ${BRANCH}"
-
+  # add in the branch
   PS1="$PS1 ${BRANCH}"
 
   # Check for a python venv
@@ -104,6 +101,7 @@ ${BLUE}\w${COLOR_NONE}"
     PS1="$PS1${LIGHT_GREEN}(venv)${COLOR_NONE}"
   fi
 
+  # Set the final bash prompt variable
   PS1="$PS1
 $PROMPT_SYMBOL "
 }
