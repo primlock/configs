@@ -1,0 +1,127 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "settingsSync.ignoredSettings": [
+        "editor.fontSize",
+        "editor.fontFamily",
+        "terminal.integrated.fontFamily",
+        "terminal.integrated.fontSize"
+    ],
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontLigatures": true,
+    "makefile.makefilePath": "make",
+    "vim.leader": " ",
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "g",
+                "i"
+            ],
+            "commands": [
+                "editor.action.revealDefinition"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "d"
+            ],
+            "commands": [
+                "editor.action.revealDeclaration"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r",
+                "n"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ],
+    "editor.lineNumbers": "relative",
+    "editor.cursorBlinking": "solid",
+    "files.associations": {
+        "*.ui": "xml"
+    },
+    "editor.minimap.enabled": false,
+    "git.openRepositoryInParentFolders": "never",
+    "settingsSync.ignoredExtensions": [],
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "vim.commandLineModeKeyBindings": [],
+    "terminal.integrated.env.windows": {},
+    "mesonbuild.downloadLanguageServer": true,
+    "mesonbuild.languageServer": null,
+    "rust-analyzer.completion.autoimport.enable": false,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.detectIndentation": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnSave": false
+    },
+    "redhat.telemetry.enabled": true,
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    "calva.prettyPrintingOptions": {
+        "printEngine": "pprint",
+        "enabled": true,
+        "width": 120,
+        "maxLength": 50
+    },
+    "calva.paredit.defaultKeyMap": "strict",
+    "C_Cpp.clang_format_style": "Google",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "update.showReleaseNotes": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.copilotHover": "disabled",
+    "[cpp]": {
+
+        "editor.wordBasedSuggestions": "off",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace"
+    }
+}
